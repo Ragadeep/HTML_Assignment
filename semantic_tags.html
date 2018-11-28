@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Semantic Tags</title>
+    <link rel="icon" type="image/png" href="capgemini_logo.png" sizes="16x16">
+    <style>
+        body{
+            background-color: #ffe9be;
+        }
+        .headings{
+            padding-left: 20px;
+            padding-right: 20px;
+            text-decoration: none;
+            color: Gray;
+        }
+        
+        .headings:hover{
+            color: #29a329;
+        }
+        .image_cointainer {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .joe_pizza{
+            text-decoration: none;
+        }
+        .offers{
+            width: 37%; 
+            float: right; 
+            background-color: red; 
+            margin-top: 20px; 
+            padding: 20px 30px 20px 30px; 
+            color: white;
+            box-shadow: 0 0 12px 1px black;
+        }
+        .welcome{
+            background-color: white; 
+            width: 50%; 
+            float: left; 
+            padding: 20px 30px 20px 30px; 
+            margin-top: 20px;
+            box-shadow: 0 0 4px 3px lightgrey;
+        }
+        .navlinks{
+            width: 50%; 
+            float: right; 
+            padding-top: 30px;
+        }
+        .nav_heading{
+            float: right;x
+        }
+        .footer{
+            width: 100%; 
+            position: fixed; 
+            bottom: 0px; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding-left: 10%; padding-right: 10%;">
+        <header style="height: 80px;">
+            <div style="width: 50%; float: left;">
+                <h1 style="color: #29a329;"><i>Joe's Pizza Co.</i></h1>
+            </div>
+            <div class="navlinks">
+                <nav class="nav_heading">
+                    <a href="#" class="headings">Home</a>
+                    <a href="#" class="headings">About</a>
+                    <a href="#" class="headings">News</a>
+                    <a href="#" class="headings">Menu</a>
+                    <a href="#" class="headings">Locations</a>
+                    <a href="#" class="headings">Bookings</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="image_cointainer">
+            <img src="pizza.jpg" width="100%" height="400px;">
+            <article class="centered">
+                <h1><font size="30">New York's Best Pizza</font></h1>
+                <i>-jeo's pepperoni special-</i>
+            </article>
+        </div>
+
+        <div>
+            <section class="welcome">
+                <strong><p>Welcome to Joe's Pizza Co.</p></strong>
+                <p>We pride ourselfs on serving up best pizzas in New york City. Come and visit one of our family-friendly restrants and take a look at our wide range of authenic italic pizzas. We can aslo deliver direct to our door with our speedy takeaway service.</p>
+                <p>Please take a look at the <a href="#" class="joe_pizza">Locations</a> page for more information about where you can find our fantastic restrants.</p>
+            </section>
+            <aside class="offers">
+                    <strong><p>Special Offers</p></strong>
+                    <p>10% off All pizzas When you Eat.</p>
+                    <p>20% off on Joe's pizzas wit the promo code CAPGEMINI_JOE</p>
+            </aside>
+        </div>
+    
+        <footer class="footer">
+           <p>@2017 all Copyrights are reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
