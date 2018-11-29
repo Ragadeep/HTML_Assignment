@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="icon" type="image/png" href="images/raga_logo.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+    <div class="add_acc_header">
+        <section class="logo">
+            <div class="logo_outline">
+                <div class="logo_head">
+                    <center><h2>RAGA BANK</h2></center>
+                </div>
+                <div class="logo_tagline">
+                    <center><i>King of Secure</i></center>
+                </div>
+            </div>
+        </section>
+        <section class="head_service">
+            <strong><p class="head_service1">RAGA BANK <i>ONLINE SERVICES</i></p></strong>
+        </section>
+    </div>
+
+    <div class="new_account">
+    <p>This is high secure login for RAGA bank. By entering your valid account details and access it.</p>
+    <span><p>( <i style="color: red">*</i> ) Mandatory Fields</p></span>
+    <center>
+        <div class="regform">
+            <form>
+                <div class="regform1">
+                    <p>RAGA BANK SECURE <strong>LOGIN</strong></p>
+                </div>
+
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">User Id:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext=">
+                        <input type="text" class="input_field" name="userid" placeholder="Enter yor acc no" pattern="\d+" title="only numbers allowed">
+                    </div>
+                </div>
+                
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">Password:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext=">
+                        <input type="password" class="input_field" name="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                    </div>
+                </div>
+                
+                <div class="form_submit_div">
+                    <input type="submit" value="Login" class="form_submit">
+                </div>
+              
+            </form>
+        </div>
+    </center>
+    </div>
+    <footer>
+        <p>© 2018 RAGA Bank Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>

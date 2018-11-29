@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="icon" type="image/png" href="images/raga_logo.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+    <div class="add_acc_header">
+        <section class="logo">
+            <div class="logo_outline">
+                <div class="logo_head">
+                    <center><h2>RAGA BANK</h2></center>
+                </div>
+                <div class="logo_tagline">
+                    <center><i>King of Secure</i></center>
+                </div>
+            </div>
+        </section>
+        <section class="head_service">
+            <strong><p class="head_service1">RAGA BANK <i>ONLINE SERVICES</i></p></strong>
+        </section>
+    </div>
+
+    <div class="new_account">
+    <p>Thank you for your interest in our RAGA Bank New Account. Please fill up the form given below and our representative will get in touch with you shortly.</p>
+    <span><p>( <i style="color: red">*</i> ) Mandatory Fields</p></span>
+    <center>
+        <div class="regform">
+            <form>
+                <div class="regform1">
+                    <p>Add New Account</p>
+                </div>
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">AccountHolderName:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext">
+                        <input type="text" class="input_field" name="first_name" placeholder="Name here..." pattern="[A-Za-z]{1,25}" title="it allows Only characters upto 25">
+                    </div>    
+                </div>
+                
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">CustomerEmailId:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext">
+                        <input type="email" class="input_field" name="email" placeholder="sometext@xxxx.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" tittle="email ex: sometext@xxxx.com">
+                    </div>
+                </div>
+
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">CustomerDOB:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext">
+                        <input type="date" class="input_field" name="test_date">
+                    </div>
+                </div>
+
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">CustomerPhoneNumber:</label>
+                    </div>
+                    <div class="reg_righttext=">
+                        <input type="text" class="input_field" name="mobile_number" placeholder="mobile number.." pattern="[789][0-9]{9}" title="it should allow excatly 10 numbers">
+                    </div>
+                </div>
+
+                <div class="regtext">
+                    <div class="reg_lefttext">
+                        <label class="lab_text">AccountType:<span>*</span></label>
+                    </div>
+                    <div class="reg_righttext">
+                        <select class="input_field">
+                            <option hidden>--select--</option>
+                            <option>Current</option>
+                            <option>Savings</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                <div class="form_reset_div">
+                        <input type="reset" value="Reset" class="form_reset">
+                </div>
+                <div class="form_submit_div">
+                    <input type="submit" value="submit" class="form_submit">
+                </div>
+                </div>
+            
+            </form>
+        </div>
+    </center>
+    </div>
+    <footer>
+            <p>© 2018 RAGA Bank Ltd. All rights reserved.</p>
+        </footer>
+</body>
+</html>
